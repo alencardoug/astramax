@@ -1,0 +1,23 @@
+# package.json uses a positive allowlist; keep development material out as well.
+.git/
+.claude/
+.codex/
+.agents/
+.npm-cache/
+node_modules/
+tests/
+/scripts/
+docs/
+docs_para_portfolio/
+REPOSITORY_SPEC.md
+CONTRIBUTING.md
+SECURITY.md
+*.tgz
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*
+**/*.log
+REVISAO.md
+STAGED_REVIEW.md
+RANGE_REVIEW.md

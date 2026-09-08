@@ -1,0 +1,41 @@
+{
+  "name": "astramax-reviewer",
+  "version": "0.1.0",
+  "description": "Agent Skill for independent GPT-6 Astra review of AI-assisted software development.",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "agent-skills",
+    "ai-agent",
+    "code-review",
+    "claude-code",
+    "codex",
+    "gpt-6-astra",
+    "software-engineering",
+    "skillpm"
+  ],
+  "files": [
+    "skills/astramax-reviewer/SKILL.md",
+    "skills/astramax-reviewer/references/*.md",
+    "skills/astramax-reviewer/scripts/dossier.py",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "python3 -B -m unittest discover -s tests -v",
+    "prepack": "npm run validate"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alencardoug/astramax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alencardoug/astramax/issues"
+  },
+  "homepage": "https://github.com/alencardoug/astramax#readme"
+}

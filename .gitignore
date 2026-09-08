@@ -1,0 +1,13 @@
+node_modules/
+.npm-cache/
+*.tgz
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.log
+/REVISAO.md
+/STAGED_REVIEW.md
+/RANGE_REVIEW.md
+/.astramax-test-*/
